@@ -1,0 +1,133 @@
+
+    html{
+        font-size: .9rem;
+     }
+     body{
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     /* 1em=16px */
+     padding: 1,6em;
+     
+     }
+     .container{
+     max-width: 570px;
+     }
+     h1,h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 1000;
+     }
+     h3{
+      font-style: italic;
+      padding-left: 0,22em;
+      margin-bottom: 0;
+     }
+     h4{
+      margin-top: 0;
+     }
+     .difs{
+     color: green;
+     }
+     .links{
+     text-decoration: none;
+     color: white;
+     background-color: rgb(24, 128, 23);
+     border: 1px solid black;
+     padding:.31em;
+     font-family:  Georgia, 'Times New Roman', Times, serif;
+     
+     
+     }
+     a:hover{
+      background-color:white;
+      color: rgb(24, 128, 23) ;
+      transform: scale(1.03);
+     }
+     .title{
+      padding:  1.25em ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+     }
+      .header img{
+     
+      border-radius: 90px;
+     
+     }
+     .books,.header{
+      background-color: lightslategray;
+      font-family:cursive;
+      padding: 1.875em;
+     
+     }
+     
+     .myinfo , 
+     .extra {
+      font-family:cursive;
+     background-color: lightgrey;
+     padding: 1.25em;
+     } 
+     .writing{
+      margin-top: 0;
+      font-size:x-small;
+     }
+     .write{
+      margin-bottom: 0;
+      
+     }
+     .pics img{
+        width: 200px;
+        height: 200px;
+     }
+     .all{
+     padding:  1.25em ;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+     }
+     @media(min-width:600px){
+     html{
+        font-size: 1.3125rem;
+     }
+     }
+     @media(min-width: 750px){
+        .main-content{
+           height: 830px;
+           display: flex;
+           }
+           .header{
+              min-height: 100h;
+           }
+           .books{
+              background-color: rgb(70, 135, 232);
+              color: white;
+           }
+           .books span{
+              color: black;
+           }
+           .myinfo{
+              display: flex;
+              justify-content: center;
+              align-content: center;
+           }
+           .extra{
+              background-color: white;
+           }
+           .all{
+              display: flex;
+              flex-direction: row;
+              justify-content:space-around;
+              font-size: .6rem;
+              
+             
+           }
+         }
+
+
+
+
